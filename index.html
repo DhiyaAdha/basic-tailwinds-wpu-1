@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font-text  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            spacing: {
+              13: "3.25rem",
+            },
+            fontFamily: {
+              sans: ['Inter'],
+            },
+          },
+        },
+      };
+    </script>
+
+    <title>basic-tail-sandhika</title>
+    <style type="text/tailwindcss">
+      * {
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <section class="bg-gradient-to-tr from-red-500 via-white to-yellow-500">
+      <h2>Spacing</h2>
+      <div class="m-5">Margin</div>
+    </section>
+
+    <section class="mb-96 font-inter max-w-3xl mx-auto text-lg  ">
+      <h2 class="mb-4 font-semibold text-6xl my-6 text-center"><span class="bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">Belajar Mengenai</span>  Typhogrphy pada Tailwindcss</h2>
+      <div class="mb-2 font-normal">By <span class="text-slate-700">Dhiya</span> , 5 januari 2023</div>
+      <p class="mb-4">
+        Lorem ipsum dolor,  sit amet <a href="" class="underline font-semibold">consectetur</a>  adipisicing elit. Inventore
+        dolorem ad fugit harum porro ab repellendus deleniti repudiandae odio.
+        Quaerat vel commodi quidem optio hic expedita sed possimus quis ipsum,
+        harum cum. Nobis vel exercitationem ea esse dicta ut. Deserunt, et?
+        Laborum adipisci, vero praesentium cum sint earum nesciunt facilis!
+      </p>
+      <p class="mb-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+        exercitationem et rem sed ipsam qui hic error dolorum enim! Libero, ipsa
+        consequuntur dolor eveniet tenetur neque amet eum voluptatem ullam!
+      </p>
+      <p class="mb-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+        atque amet quam? Quasi saepe ea repellendus cumque iste ad veritatis.
+      </p>
+    </section>
+  </body>
+</html>
